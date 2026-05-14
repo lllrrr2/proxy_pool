@@ -1,7 +1,7 @@
 
 ProxyPool 爬虫代理IP池
 =======
-[![Build Status](https://travis-ci.org/jhao104/proxy_pool.svg?branch=master)](https://travis-ci.org/jhao104/proxy_pool)
+[![Comprehensive Tests](https://github.com/jhao104/proxy_pool/actions/workflows/comprehensive-test.yml/badge.svg?branch=master)](https://github.com/jhao104/proxy_pool/actions/workflows/comprehensive-test.yml)
 [![](https://img.shields.io/badge/Powered%20by-@j_hao104-green.svg)](http://www.spiderpy.cn/blog/)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/jhao104/proxy_pool/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/jhao104/proxy_pool.svg)](https://github.com/jhao104/proxy_pool/graphs/contributors)
@@ -22,10 +22,7 @@ ProxyPool 爬虫代理IP池
 
 * 文档: [document](https://proxy-pool.readthedocs.io/zh/latest/) [![Documentation Status](https://readthedocs.org/projects/proxy-pool/badge/?version=latest)](https://proxy-pool.readthedocs.io/zh/latest/?badge=latest)
 
-* 支持版本: [![](https://img.shields.io/badge/Python-2.7-green.svg)](https://docs.python.org/2.7/)
-[![](https://img.shields.io/badge/Python-3.5-blue.svg)](https://docs.python.org/3.5/)
-[![](https://img.shields.io/badge/Python-3.6-blue.svg)](https://docs.python.org/3.6/)
-[![](https://img.shields.io/badge/Python-3.7-blue.svg)](https://docs.python.org/3.7/)
+* 支持版本: 
 [![](https://img.shields.io/badge/Python-3.8-blue.svg)](https://docs.python.org/3.8/)
 [![](https://img.shields.io/badge/Python-3.9-blue.svg)](https://docs.python.org/3.9/)
 [![](https://img.shields.io/badge/Python-3.10-blue.svg)](https://docs.python.org/3.10/)
@@ -222,6 +219,7 @@ PROXY_FETCHER = [
   | 免费代理库         |  ✔    |     ☆     |    *    | [地址](http://ip.jiangxianli.com/)   | [`freeProxy09`](/fetcher/proxyFetcher.py#L143) |
   | 89代理          |  ✔    |     ☆     |   *     | [地址](https://www.89ip.cn/)         | [`freeProxy10`](/fetcher/proxyFetcher.py#L154) |
   | 稻壳代理          |  ✔    |     ★★    |   ***   | [地址](https://www.docip.ne)         | [`freeProxy11`](/fetcher/proxyFetcher.py#L164) |
+  | 谷德代理          |  ✔    |     ★★    |   ***   | [地址](https://www.goodips.com)         | [`freeProxy12`](/fetcher/proxyFetcher.py#L174) |
 
   
   如果还有其他好的免费代理网站, 可以在提交在[issues](https://github.com/jhao104/proxy_pool/issues/71), 下次更新时会考虑在项目中支持。
